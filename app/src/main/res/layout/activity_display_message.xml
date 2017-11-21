@@ -4,11 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.opilane.myapplication.DisplayMessageActivity">
+    tools:context="com.example.opilane.myapplication.DisplayMessageActivity"
+    android:background="#f7c9cc">
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:id="@+id/TextView" />
+        android:id="@+id/TextView"
+        android:textSize="50dp"/>
 
 </RelativeLayout>
